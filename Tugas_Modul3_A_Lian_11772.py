@@ -72,7 +72,6 @@ if uploaded_file is not None:
     st.write("<h3 style='text-align: center; color: #0073e6;'>Data yang diupload:</h3>", unsafe_allow_html=True)
     st.dataframe(input_data)
 
-    model_directory = r'D:\SURYA\UAJY\Semester 5\Asdos Machine Learning\Pemegang Modul\Modul Supervised Learning\New folder\New folder'
     model_path = r'SVR_IPK_model.pkl'
 
     if os.path.exists(model_path):
